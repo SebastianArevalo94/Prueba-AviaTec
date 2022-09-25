@@ -41,50 +41,15 @@ const Recomended = () => {
     <Box sx={RecomendedStyles}>
       <h2>Vuelos Recomendados</h2>
       <Carousel responsive={responsive}>
-        {/* {recomended.map((city, index) => {
+        {recomended.map((city, index) => {
           return (
-            <div className="cardInfo">
-              <img src={example} alt="" />
-              <p>Medellin, Colombia</p>
-              <p className="cardPrice">123.456 COP</p>
+            <div className="cardInfo" key={index}>
+              <img className="cardImg" src={city.image} alt={city.city}/>
+              <p>{city.city}</p>
+              <p className="cardPrice">{city.price}</p>
             </div>
           );
-        })} */}
-        <div className="cardInfo">
-          <img src={example} alt="" />
-          <p>Medellin, Colombia</p>
-          <p className="cardPrice">123.456 COP</p>
-        </div>
-        <div className="cardInfo">
-          <img src={example} alt="" />
-          <p>Medellin, Colombia</p>
-          <p className="cardPrice">123.456 COP</p>
-        </div>
-        <div className="cardInfo">
-          <img src={example} alt="" />
-          <p>Medellin, Colombia</p>
-          <p className="cardPrice">123.456 COP</p>
-        </div>
-        <div className="cardInfo">
-          <img src={example} alt="" />
-          <p>Medellin, Colombia</p>
-          <p className="cardPrice">123.456 COP</p>
-        </div>
-        <div className="cardInfo">
-          <img src={example} alt="" />
-          <p>Medellin, Colombia</p>
-          <p className="cardPrice">123.456 COP</p>
-        </div>
-        <div className="cardInfo">
-          <img src={example} alt="" />
-          <p>Medellin, Colombia</p>
-          <p className="cardPrice">123.456 COP</p>
-        </div>
-        <div className="cardInfo">
-          <img src={example} alt="" />
-          <p>Medellin, Colombia</p>
-          <p className="cardPrice">123.456 COP</p>
-        </div>
+        })} 
       </Carousel>
     </Box>
   );

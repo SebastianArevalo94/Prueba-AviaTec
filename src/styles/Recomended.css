@@ -9,6 +9,11 @@ h2 {
     gap: 10px;
 }
 
+.cardImg {
+    width: 300px;
+    border-radius: 8px;
+}
+
 .cardPrice {
     background-color: #EFEFEF;
     color: #2578CD;

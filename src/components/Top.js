@@ -1,8 +1,8 @@
-// import SearchSharpIcon from "@mui/icons-material/SearchSharp";
-// import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
-// import FlightTakeoffIcon from "@mui/icons-material/FlightTakeoff";
-// import ApartmentIcon from "@mui/icons-material/Apartment";
-// import DirectionsCarIcon from "@mui/icons-material/DirectionsCar";
+import SearchSharpIcon from "@mui/icons-material/SearchSharp";
+import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
+import FlightTakeoffIcon from "@mui/icons-material/FlightTakeoff";
+import ApartmentIcon from "@mui/icons-material/Apartment";
+import DirectionsCarIcon from "@mui/icons-material/DirectionsCar";
 import {
   Box,
   Paper,
@@ -91,26 +91,23 @@ const Top = () => {
       <Box style={NavStyles}>
         <h1>AVIATUR</h1>
         <Box>
-          {/* <SearchSharpIcon style={IconStyles} />
-          <PersonOutlineOutlinedIcon style={IconStyles} /> */}
+          <SearchSharpIcon style={IconStyles} />
+          <PersonOutlineOutlinedIcon style={IconStyles} />
         </Box>
       </Box>
       <Box sx={{ position: "absolute" }} style={SearchStyles}>
         <h2>
           Descubra nuevos <br /> destinos
         </h2>
-        <Paper sx={{ position: "relative", mt: 6 }}>
+        <Paper sx={{ position: "relative", m: 8 }}>
           <ButtonGroup
             sx={{ position: "absolute", bottom: 138 }}
             variant="contained"
             aria-label="outlined primary button group"
           >
-            {/* <Button startIcon={<FlightTakeoffIcon />}>Vuelos</Button>
+            <Button startIcon={<FlightTakeoffIcon />}>Vuelos</Button>
             <Button startIcon={<ApartmentIcon />}>Hotel</Button>
-            <Button startIcon={<DirectionsCarIcon />}>Autos</Button> */}
-            <Button>Vuelos</Button>
-            <Button>Hotel</Button>
-            <Button>Autos</Button>
+            <Button startIcon={<DirectionsCarIcon />}>Autos</Button>
           </ButtonGroup>
           <Box style={SearchVuelo}>
             <FormControlLabel control={<Checkbox />} label="Ida y vuelta" />
