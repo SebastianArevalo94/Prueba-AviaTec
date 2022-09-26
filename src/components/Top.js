@@ -88,7 +88,7 @@ const Top = () => {
   });
   return (
     <Box sx={{ position: "relative" }}>
-      <Box style={NavStyles}>
+      <Box style={NavStyles} class="backIMG">
         <h1>AVIATUR</h1>
         <Box>
           <SearchSharpIcon style={IconStyles} />
@@ -116,7 +116,7 @@ const Top = () => {
           </Box>
           <Box style={InfoInputs}>
             <Box style={DoubleSelect}>
-              <FormControl sx={{ minWidth: 280 }}>
+              <FormControl sx={{ minWidth: 200 }}>
                 <InputLabel id="origin">Origen</InputLabel>
                 <Select
                   labelId="origin"
@@ -134,7 +134,7 @@ const Top = () => {
                   })} 
                 </Select>
               </FormControl>
-              <FormControl sx={{ minWidth: 280 }}>
+              <FormControl sx={{ minWidth: 200 }}>
                 <InputLabel id="destiny">Destino</InputLabel>
                 <Select
                   labelId="destiny"

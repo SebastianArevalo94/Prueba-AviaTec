@@ -1,3 +1,31 @@
 .miamiImg {
     position: absolute;
 }
+
+.cityName {
+    position: absolute;
+    top: 85%;
+    left: 8%;
+    color: #fff;
+}
+
+.cityName2{
+    position: absolute;
+    color: #fff;
+    top: 80%;
+    left: 8%;
+}
+
+.cityName3{
+    position: absolute;
+    color: #fff;
+    top: 75%;
+    left: 8%;
+}
+
+.cityName4{
+    position: absolute;
+    color: #fff;
+    top: 70%;
+    left: 8%;
+}

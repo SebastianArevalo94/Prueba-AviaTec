@@ -72,34 +72,52 @@ const Footer = () => {
       <Box sx={List}>
         <Box>
           <ul class="list1">
-            <li>Acerca de Nosotros</li>
-            <li>FAQ</li>
-            <li>Contactenos</li>
-            <li>Sucursales Aviatur</li>
-            <li>Organizacion Aviatur</li>
-            <li>Trabaje con nosotros</li>
-            <li>Premios y certificaciones</li>
-            <li>Declaracion viajero responsable</li>
+            <li class="title">Acerca de Nosotros</li>
+            <li class="subtitle">FAQ</li>
+            <li class="subtitle">Contactenos</li>
+            <li class="subtitle">Sucursales Aviatur</li>
+            <li class="subtitle">Organizacion Aviatur</li>
+            <li class="subtitle">Trabaje con nosotros</li>
+            <li class="subtitle">Premios y certificaciones</li>
+            <li class="subtitle">Declaracion viajero responsable</li>
           </ul>
         </Box>
         <Box>
-        <ul className="list1">
-            <li>Servicio al cliente</li>
-            <li>Evalue nuestro sitio</li>
-            <li>Contactenos</li>
-            <li>Reclamos</li>
-            <li>Problemas tecnicos</li>
-            <li>Escriba a Jean Claud Bessudo</li>
+          <ul className="list1">
+            <li class="title">Servicio al cliente</li>
+            <li class="subtitle">Evalue nuestro sitio</li>
+            <li class="subtitle">Contactenos</li>
+            <li class="subtitle">Reclamos</li>
+            <li class="subtitle">Problemas tecnicos</li>
+            <li class="subtitle">Escriba a Jean Claud Bessudo</li>
           </ul>
         </Box>
         <Box>
-        <ul>
-            <li>Servicio al cliente</li>
-            <li>Evalue nuestro sitio</li>
-            <li>Contactenos</li>
-            <li>Reclamos</li>
-            <li>Problemas tecnicos</li>
-            <li>Escriba a Jean Claud Bessudo</li>
+          <ul className="list1">
+            <li class="title">Otros Productos</li>
+            <li class="subtitle">Viajes Corporativos</li>
+            <li class="subtitle">Consolidador de agentres/agencias</li>
+            <li class="subtitle">Portal de Facturacion Electronica</li>
+            <li class="subtitle">Caso Navegante</li>
+            <li class="subtitle">Tiquetes baratos</li>
+            <li class="subtitle">Hoteles baratos</li>
+            <li class="subtitle">Contenidos Aviatur</li>
+            <li class="subtitle">Revista Horizontes</li>
+          </ul>
+        </Box>
+        <Box>
+          <ul className="list1">
+            <li class="title">Otros Servicios</li>
+            <li class="subtitle">Avia Tecnologia</li>
+            <li class="subtitle">Avia Legal</li>
+            <li class="subtitle">Avia Seguros</li>
+            <li class="subtitle">Avia Soluciones Hoteleras</li>
+            <li class="subtitle">Carga y logistica</li>
+            <li class="subtitle">Contratos de transporte aerolineas</li>
+            <li class="subtitle">Canal de contenidos RSS</li>
+            <li class="subtitle">Blog Aviatur</li>
+            <li class="subtitle">Sistemas de credito</li>
+            <li class="subtitle">Informacion de aerolineas</li>
           </ul>
         </Box>
       </Box>
@@ -116,7 +134,7 @@ const Footer = () => {
             pagos - Todos los derechos reservados Derecho de retracto y
             desistimiento, según Resolución 1209 del 5/25/2015 de la UAEAC.
           </p>
-          <p>
+          <p className="p">
             AVIATUR apoya el trabajo de UNICEF comprometiéndose con la
             protección de los derechos de las niñas, niños y adolescentes en
             Colombia y el mundo. Necesitamos también su compromiso. Invierta en
@@ -131,35 +149,35 @@ const Footer = () => {
           <ul class="list">
             <li>
               <AddLocationIcon color="primary"/>
-              <p>Avenida 19 No. 4 - 62, Bogotá, Colombia</p>
+              <p class="final-list">Avenida 19 No. 4 - 62, Bogotá, Colombia</p>
             </li>
             <li>
               <EmailIcon color="primary"/>
-              <p>cliente.com@aviatur.com.co</p>
+              <p class="final-list">cliente.com@aviatur.com.co</p>
             </li>
             <li>
               <LocalPhoneIcon color="primary"/>
-              <p>Bogotá 3821616 - 5879640</p>
+              <p class="final-list">Bogotá 3821616 - 5879640</p>
             </li>
             <li>
               <WhatsAppIcon color="primary"/>
-              <p>5713821616</p>
+              <p class="final-list">5713821616</p>
             </li>
             <li>
               <HelpIcon color="primary"/>
-              <p>018000911555</p>
+              <p class="final-list">018000911555</p>
             </li>
             <li>
               <ArticleIcon color="primary"/>
-              <p>NIT: 860.000.018-2.</p>
+              <p class="final-list">NIT: 860.000.018-2.</p>
             </li>
             <li>
               <ApartmentIcon color="primary"/>
-              <p>Agencia de viajes Aviatur SAS</p>
+              <p class="final-list">Agencia de viajes Aviatur SAS</p>
             </li>
             <li>
               <CheckIcon color="primary"/>
-              <p>Registro Nacional de Turismo No. 438.</p>
+              <p class="final-list">Registro Nacional de Turismo No. 438.</p>
             </li>
           </ul>
         </Box>
