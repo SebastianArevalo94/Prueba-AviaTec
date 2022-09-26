@@ -116,7 +116,7 @@ const Top = () => {
           </Box>
           <Box style={InfoInputs}>
             <Box style={DoubleSelect}>
-              <FormControl sx={{ minWidth: 200 }}>
+              <FormControl sx={{ minWidth: 280 }}>
                 <InputLabel id="origin">Origen</InputLabel>
                 <Select
                   labelId="origin"
@@ -131,10 +131,10 @@ const Top = () => {
                         {ciudad.name_city}
                       </MenuItem>
                     );
-                  })}
+                  })} 
                 </Select>
               </FormControl>
-              <FormControl sx={{ minWidth: 200 }}>
+              <FormControl sx={{ minWidth: 280 }}>
                 <InputLabel id="destiny">Destino</InputLabel>
                 <Select
                   labelId="destiny"
