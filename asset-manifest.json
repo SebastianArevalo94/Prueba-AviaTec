@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/SebastianArevalo94/static/css/main.eb3a9cdc.css",
+    "main.js": "/SebastianArevalo94/static/js/main.975034b8.js",
+    "static/js/787.58a9e4ee.chunk.js": "/SebastianArevalo94/static/js/787.58a9e4ee.chunk.js",
+    "static/media/nav.png": "/SebastianArevalo94/static/media/nav.1aa439fc28725fb353f8.png",
+    "static/media/Berna.jpg": "/SebastianArevalo94/static/media/Berna.92249d515377757dfc72.jpg",
+    "static/media/Moscu.jpg": "/SebastianArevalo94/static/media/Moscu.4c7b9d7f4f175c56f93f.jpg",
+    "static/media/Paris.jpg": "/SebastianArevalo94/static/media/Paris.8afedf96f2a33f78f76d.jpg",
+    "static/media/Quebec.jpg": "/SebastianArevalo94/static/media/Quebec.d4c116f0e8e58c21f19b.jpg",
+    "static/media/Miami.png": "/SebastianArevalo94/static/media/Miami.9a1af83715bfe4ce537a.png",
+    "static/media/Medellin, Colombia.png": "/SebastianArevalo94/static/media/Medellin, Colombia.0e2a67ea550bd53ba405.png",
+    "static/media/Cartagena.png": "/SebastianArevalo94/static/media/Cartagena.54f36da90b3620edae71.png",
+    "static/media/Santorini, Grecia.png": "/SebastianArevalo94/static/media/Santorini, Grecia.0b90a135f30dceb1842f.png",
+    "static/media/Ciudad de Panama ,Panama.png": "/SebastianArevalo94/static/media/Ciudad de Panama ,Panama.c108f39985d458442f43.png",
+    "static/media/MachuPichu.png": "/SebastianArevalo94/static/media/MachuPichu.594607fcfdf020011677.png",
+    "static/media/BuenosAires.png": "/SebastianArevalo94/static/media/BuenosAires.2217e957c474010a24d5.png",
+    "static/media/Noruega.jpg": "/SebastianArevalo94/static/media/Noruega.577f33b80a4009a998da.jpg",
+    "static/media/revicons.eot": "/SebastianArevalo94/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/SebastianArevalo94/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/SebastianArevalo94/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/logo.svg": "/SebastianArevalo94/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/SebastianArevalo94/index.html",
+    "main.eb3a9cdc.css.map": "/SebastianArevalo94/static/css/main.eb3a9cdc.css.map",
+    "main.975034b8.js.map": "/SebastianArevalo94/static/js/main.975034b8.js.map",
+    "787.58a9e4ee.chunk.js.map": "/SebastianArevalo94/static/js/787.58a9e4ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb3a9cdc.css",
+    "static/js/main.975034b8.js"
+  ]
+}
